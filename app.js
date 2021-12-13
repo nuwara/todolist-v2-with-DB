@@ -8,7 +8,7 @@ const _ = require("lodash");
 const app = express();
 
 //mongoose connection
-mongoose.connect("mongodb+srv://M-Idris:mi12345@cluster0.l3db4.mongodb.net/todolistDB", {
+mongoose.connect("'mongodb://localhost:27017/todolistDB', {
     useNewUrlParser: true,
     // useCreateIndex: true,
     useUnifiedTopology: true,
